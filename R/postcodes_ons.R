@@ -27,7 +27,7 @@ trim_to_sector <- function(postcode) {
 }
 
 constituency_postcode_sectors <- onspd_data %>%
-  # sample_n(1000) %>%
+  # sample_n(1000) %>% # used for quick testing of the pipeline
   filter(!is.na(pcds) & !is.na(pcon)) %>%
   select(pcds, pcon) %>%
   rowwise() %>%
