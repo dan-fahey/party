@@ -1,2 +1,2 @@
-# politics
-Various scripts for my Labour Party work
+# party
+Miscellaneous scripts for the Party
